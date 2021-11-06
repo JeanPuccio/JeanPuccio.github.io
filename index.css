@@ -1,0 +1,218 @@
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #476269;
+    font-size: 1.2rem;
+    line-height: 1.4em;
+    margin: 0;
+    background: #FBF3E4; 
+}
+p{
+    margin-bottom: 1.6em;
+}
+.container{
+    width: 85%;
+    max-width: 850px;
+    margin: 0 auto ;
+}
+h1{
+    font-size: 2rem;
+    line-height: 1.3em;
+    text-transform: uppercase;
+}
+.nombre{
+    text-transform: uppercase;
+    color: #426e6a;
+}
+#sobremi img{
+    width: 320px;
+    border: 7px solid #321313;
+    height: 320px;
+    margin-left: 60px;
+    margin-top: 40px;
+}
+#sobremi{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.header{
+    background-image: linear-gradient(140deg, #112031 0, #152D35 25%, #345B63 50%, #678983 75%, #D4ECDD 100%);
+    color: white;
+    padding: 2rem 0;
+    position: fixed;
+    left: 0;
+    top:0;
+    right: 0;
+}
+header a{
+    color: white;
+    text-decoration: none;
+}
+.logo-nav-container{
+    display:flex;
+    justify-content: space-between;
+    align-items:center ;
+    flex-wrap: wrap;
+}
+.navigation ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.navigation ul li{
+    display: inline-block;
+}
+.navigation ul li a {
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: all 0.4s linear;
+    border-radius: 5px;
+}
+.navigation ul li a:hover{
+    background: #0965ce71;
+}
+.logo{
+    letter-spacing: 15px;
+    font-size: 1.2em;
+    background-image: linear-gradient(340deg, #cc78ff 0, #7656f5 25%, #0230ab 50%, #000d63 75%, #00002a 100%);
+    border-radius: 40%;
+    box-shadow: 5px 5px 10px #949494;
+    animation-name: logofondo;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    
+    
+}
+@keyframes logofondo{
+    0%{
+        background-image: radial-gradient(circle at 60.84% 90.45%, #bcffe5 0, #a4f4de 16.67%, #83e3d2 33.33%, #50ccc1 50%, #00b5b2 66.67%, #00a4ab 83.33%, #0098a9 100%);
+
+    }
+    
+    
+    40%{
+        background-image: radial-gradient(circle at 67.7% 87.95%, #bde0ff 0, #77abff 25%, #2d76f1 50%, #00449c 75%, #001952 100%);
+    }
+    100%{
+        background-image: linear-gradient(340deg, #cc78ff 0, #7656f5 25%, #0230ab 50%, #000d63 75%, #00002a 100%);
+    }
+}
+.logo:hover{
+    background: rgb(46, 103, 224);
+    box-shadow: 5px 5px 10px #f2f2f2;
+    animation-play-state: paused;
+}
+.menu-icon{
+    display: none;
+}
+#redes{
+    background-image: linear-gradient(140deg, #112031 0, #152D35 25%, #345B63 50%, #678983 75%, #D4ECDD 100%);
+    padding: 2rem 0 ;
+    text-align: center;
+    margin-top: 6rem;
+    color: whitesmoke;
+}
+.main{
+    padding-top: 12rem;
+}
+@media (max-width:839px){
+    .menu-icon{
+        display: block;
+        cursor: pointer;
+        padding: 0.5rem 1rem;
+        border-radius: 30%;
+    }
+    .menu-icon:hover{
+        box-shadow: 3px 3px 10px #b8b6b6;
+        transition: .5s;
+    }
+    .navigation ul {
+        display: none;
+    }
+    .navigation ul.show{
+        display: block;
+    }
+    .navigation {
+        width: 100%;
+        margin-top: 1rem;
+    }
+    .navigation ul li{
+        display: block;
+    }
+    .navigation ul li a {
+        display: block;
+        padding: 0.5rem 0;
+        transition: all 0.4s linear;
+        border-radius: 5px;
+    }
+    .navigation ul li a:hover{
+        background: #4a4a4a;
+    }
+}
+
+.python{
+    background: #5c8D89;
+    margin-top: 20px;
+    margin-left: 30px;
+    width: 800px;
+    height: 250px;
+    
+    
+}
+.tit{
+    margin-top: 17px;
+    margin-bottom: 17px;
+    font-family: cursive;
+    font-style: oblique;
+    font-size: 30px;
+    text-align: center;
+    background-image: linear-gradient(140deg, #5C8D89 0, #74B49B 25%, #99DDCC 50%, #A7D7C5 75%, #bdebee 100%);
+    text-transform: uppercase;
+
+}
+#proyectos p{
+    color: #3f3f3f;
+    text-align: center;
+}
+.java{
+    
+    background: #74B49B;
+    margin-top: 10px;
+    margin-left: 30px;
+    width: 800px;
+    height: 250px;  
+}
+.html{
+    
+    background: #99DDCC;
+    margin-top: 10px;
+    margin-left: 30px;
+    width: 800px;
+    height: 250px;
+    box-sizing: border-box;
+}
+.animaciones{
+    
+    background: #A7D7C5;
+    margin-top: 40px;
+    margin-left: 30px;
+    width: 800px;
+    height: 250px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
